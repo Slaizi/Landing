@@ -6,11 +6,12 @@ body {
 }
 
 .container {
-    @include min-max(320px, 100%)
+    @include min-max(320px, 100%);
+    overflow-x: hidden
 }
 
 .wrap {
-    @include min-max(320px, 1180px)
+    @include min-max(320px, 1180px);
 }
 
 p,
